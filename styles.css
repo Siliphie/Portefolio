@@ -13,7 +13,7 @@ body {
 }
 
 .first_line {
-  gap:30px;
+  gap:5px;
   width: 100%;
   display: flex;
   justify-content:center;
