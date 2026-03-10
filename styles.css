@@ -46,7 +46,10 @@ body {
   text-align: center;
   justify-content: center;
   font-size: large;
-  line-height: 0.05;
+}
+
+.Presentation p{
+  margin: 2px;
 }
 
 .project_list_intro {
@@ -79,10 +82,6 @@ body {
   transition: 0.3s;
   display: flex;
   flex-direction: column;
-}
-
-.card p:last-child {
-  margin-top: auto; /* Pousse ce paragraphe (compétences) tout en bas */
 }
 
 .badge {
