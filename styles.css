@@ -4,6 +4,7 @@
   --text: #ECFDF5;
   --accent: #1c2f4d;
   --link: #0098e4;
+  --linkHover: #025d74;
 }
 
 body {
@@ -66,7 +67,7 @@ body {
 }
 
 .card a:hover{
-  color: #d8d8d8;
+  color: var(--linkHover);
   text-decoration: underline;
 }
 
@@ -107,4 +108,16 @@ body {
 
 .container {
   padding: 2px 16px;
+}
+
+footer{
+  display:flex;
+  justify-content: center;
+}
+
+footer a{
+ color: var(--link);
+}
+footer a:hover{
+ color: var(--linkHover);
 }
